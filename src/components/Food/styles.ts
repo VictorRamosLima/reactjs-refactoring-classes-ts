@@ -1,4 +1,8 @@
-import styled, { css } from 'styled-components';
+import styled, { css } from 'styled-components'
+
+interface ContainerProps {
+  available: boolean
+}
 
 export const Container = styled.div`
   background: #f0f0f5;
@@ -12,8 +16,8 @@ export const Container = styled.div`
     transition: 0.3s opacity;
     text-align: center;
 
-    ${props =>
-    !props.available &&
+    ${({ available }: ContainerProps) =>
+    !available &&
     css`
         opacity: 0.3;
       `};
@@ -142,4 +146,4 @@ export const Container = styled.div`
       }
     }
   }
-`;
+`

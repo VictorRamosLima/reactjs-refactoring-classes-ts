@@ -23,6 +23,14 @@
       "price": "25.90",
       "available": false,
       "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food3.png"
+    },
+    {
+      "image": "https://t1.rg.ltmcdn.com/pt/images/9/8/3/img_pizza_calabresa_e_mussarela_4389_orig.jpg",
+      "name": "Pizza de calabresa",
+      "price": "49.50",
+      "description": "Uma das melhores pizzas de calabresa da região",
+      "available": true,
+      "id": 4
     }
   ]
 }
